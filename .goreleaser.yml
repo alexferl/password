@@ -11,8 +11,13 @@ archives:
     darwin: Darwin
     linux: Linux
     windows: Windows
-    386: i386
     amd64: x86_64
+dockers:
+  - image_templates:
+      - "admiralobvious/password:latest"
+      - "admiralobvious/password:{{ .Tag }}"
+      - "admiralobvious/password:{{ .Tag }}-{{ .Env.GO_VERSION }}"
+      - "admiralobvious/password:v{{ .Major }}"
 checksum:
   name_template: 'checksums.txt'
 snapshot:
