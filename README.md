@@ -28,7 +28,7 @@ go get github.com/admiralobvious/password
 ```sh
 password generate
 ```
-##docker
+## docker
 ```sh
 docker run --rm -it admiralobvious/password generate
 ```

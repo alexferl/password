@@ -1,6 +1,6 @@
 package main
 
-import "password/cmd"
+import "github.com/admiralobvious/password/cmd"
 
 func main() {
 	cmd.Execute()

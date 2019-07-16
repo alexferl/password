@@ -1,4 +1,4 @@
-module password
+module github.com/admiralobvious/password
 
 go 1.12
 

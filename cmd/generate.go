@@ -2,11 +2,11 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/spf13/viper"
 	"os"
 
 	"github.com/sethvargo/go-password/password"
 	"github.com/spf13/cobra"
+	"github.com/spf13/viper"
 )
 
 var length int
