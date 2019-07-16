@@ -6,16 +6,18 @@ before:
 builds:
 - env:
   - CGO_ENABLED=0
-archives:
-- replacements:
-    darwin: Darwin
-    linux: Linux
-    windows: Windows
-    amd64: x86_64
+  ldflags:
+  - -X github.com/admiralobvious/password/cmd.version={{.Version}}
+  - -X github.com/admiralobvious/password/cmd.commit={{.ShortCommit}}
+  - -X github.com/admiralobvious/password/cmd.date={{.Date}}
+  goarch:
+    - amd64
 dockers:
   - image_templates:
-      - "admiralobvious/password:latest"
       - "admiralobvious/password:{{ .Tag }}"
+      - "admiralobvious/password:v{{ .Major }}"
+      - "admiralobvious/password:v{{ .Major }}.{{ .Minor }}"
+      - "admiralobvious/password:latest"
 checksum:
   name_template: 'checksums.txt'
 snapshot:
