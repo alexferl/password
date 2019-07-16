@@ -22,7 +22,7 @@ go get github.com/admiralobvious/password
 ```
 
 ## usage
-### cli
+### cli/golang
 ```sh
 password generate
 ```
