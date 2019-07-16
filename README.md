@@ -2,38 +2,38 @@
 
 CLI/Docker container to generate strong passwords.
 
-# features
+## features
 - super secure defaults
 - customizable
 - 12 factor
 - no HTTP API
 - no JavaScript frontend
 
-# installation
-## cli
+## installation
+### cli
 ```sh
 
 ```
-## docker
+### docker
 ```sh
 docker pull admiralobvious/password
 ```
-## golang
+### golang
 ```sh
 go get github.com/admiralobvious/password
 ```
 
-# usage
-## cli
+## usage
+### cli
 ```sh
 password generate
 ```
-## docker
+### docker
 ```sh
 docker run --rm -it admiralobvious/password generate
 ```
 
-# options
+## options
 ```
   -r, --allow-repeat           allows characters to repeat
       --digits string          list of permitted digits (default "0123456789")
@@ -47,5 +47,5 @@ docker run --rm -it admiralobvious/password generate
       --upper-letters string   list of permitted uppercase letters (default "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 ```
 
-# credits
+## credits
 [@sethvargo](https://github.com/sethvargo) for [go-password](https://github.com/sethvargo/go-password)

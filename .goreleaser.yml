@@ -16,8 +16,6 @@ dockers:
   - image_templates:
       - "admiralobvious/password:latest"
       - "admiralobvious/password:{{ .Tag }}"
-      - "admiralobvious/password:{{ .Tag }}-{{ .Env.GO_VERSION }}"
-      - "admiralobvious/password:v{{ .Major }}"
 checksum:
   name_template: 'checksums.txt'
 snapshot:
