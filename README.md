@@ -1,4 +1,4 @@
-# password
+# password [![Build Status](https://travis-ci.com/admiralobvious/password.svg?branch=master)](https://travis-ci.com/admiralobvious/password)
 
 CLI/Docker container to generate strong passwords.
 
