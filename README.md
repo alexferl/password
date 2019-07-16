@@ -11,9 +11,7 @@ CLI/Docker container to generate strong passwords.
 
 ## installation
 ### cli
-```sh
-
-```
+You can download the binaries from the [releases page](https://github.com/admiralobvious/password/releases).
 ### docker
 ```sh
 docker pull admiralobvious/password
