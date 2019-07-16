@@ -17,3 +17,5 @@
 # binary
 password
 
+# goreleaser
+dist
