@@ -16,7 +16,7 @@ docker pull admiralobvious/password
 
 ### Go
 ```shell
-go get github.com/alexferl/password
+go install github.com/alexferl/password@latest
 ```
 
 ## Usage
