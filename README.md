@@ -1,4 +1,4 @@
-# password
+# password [![Go Report Card](https://goreportcard.com/badge/github.com/alexferl/password)](https://goreportcard.com/report/github.com/alexferl/password)
 
 CLI/Docker container to generate strong passwords.
 
