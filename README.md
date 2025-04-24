@@ -5,7 +5,6 @@ CLI/Docker container to generate strong passwords.
 ## Features
 - Super secure defaults
 - Customizable
-- 12 factor
 - No HTTP API
 - No JavaScript frontend
 
