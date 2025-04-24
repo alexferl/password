@@ -1,0 +1,13 @@
+*.log
+.dockerignore
+.editorconfig
+.git
+.github
+.gitignore
+.golangci.yml
+.pre-commit-config.yaml
+.idea
+LICENSE
+README.md
+Makefile
+app-bin

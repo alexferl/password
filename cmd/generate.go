@@ -9,15 +9,17 @@ import (
 	"github.com/spf13/viper"
 )
 
-var length int
-var numDigits int
-var numSymbols int
-var noUpper bool
-var allowRepeat bool
-var lowerLetters string
-var upperLetters string
-var digits string
-var symbols string
+var (
+	length       int
+	numDigits    int
+	numSymbols   int
+	noUpper      bool
+	allowRepeat  bool
+	lowerLetters string
+	upperLetters string
+	digits       string
+	symbols      string
+)
 
 // generateCmd represents the generate command
 var generateCmd = &cobra.Command{
