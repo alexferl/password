@@ -9,18 +9,18 @@ CLI/Docker container to generate strong passwords.
 - No JavaScript frontend
 
 ## Installation
-### Docker
-```shell
-docker pull admiralobvious/password
-```
-
 ### Go
 ```shell
 go install github.com/alexferl/password@latest
 ```
 
+### Docker
+```shell
+docker pull admiralobvious/password
+```
+
 ## Usage
-### CLI/Go
+### CLI
 ```shell
 password generate
 ```
